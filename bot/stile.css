@@ -1,0 +1,389 @@
+<<<<<<< HEAD
+@charset "utf-8";
+/* CSS Document */
+
+.boxes {
+	width:100%
+	text-align:center;
+}
+
+.rightdiv {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:20px;
+}
+.leftdiv {
+	float:left;
+	min-width:15%;
+}
+
+.centraldiv {
+	width:100%;
+	margin:0px;
+	float:left;
+	display:inline-block;
+}
+
+.fondo {
+	background-color: #D0D0D0;
+	color: #3377FF;
+	font-family: "Trebuchet MS";
+}
+.comando {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	background-color: #3377FF;
+}
+
+.ver {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	background-color: #3377FF;
+	border: medium dashed #000000;
+}
+.verhead {
+	text-align:center;
+	font-size: 16px;
+	color: #3377FF;
+	background-color: #D0D0D0;
+	border: medium dashed #D0D0D0;
+}
+.vertable {
+	font-size: 16px;
+	color: #D0D0D0;
+	padding: 16px;
+}
+.vertable td {
+	white-space:pre
+}
+
+.verhead a:link {
+	color:#3377FF;
+}
+.verhead a:visited {
+	color:#3377FF;
+}
+.verhead a:hover {
+	color:#3377FF;
+}
+
+
+.outtable {
+	font-size: 12px;
+	color: #D0D0D0;
+}
+
+.outtable tr {
+	outline: thin solid black;
+	border-bottom:1pt solid black;
+}
+.outtable td {
+	margin:0;
+	font-family: monospace;
+	vertical-align:top;
+}
+
+.outtable pre {
+	margin:0;
+	padding:0;
+}
+.help
+{
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	background-color: #FDFDFD;
+	border: medium dashed #000000;
+}
+
+.titulo {
+	text-align: center;
+	font-family: Analgesics;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3377FF;
+}
+.subtitulo {
+	text-align: center;
+	font-size: 20px;
+	color: #3377FF
+}
+body {
+	background-color: #D0D0D0;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 478px;
+	top: 188px;
+}
+a:link {
+	color: #D0D0D0;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+a:hover {
+	text-decoration: underline;
+	color: #D0D0D0;
+}
+a:active {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+.bar a:link {
+	color:#3377FF;
+	text-decoration: none;
+}
+.bar a:visited {
+	text-decoration: none;
+	color: #3377FF;
+}
+.bar a:hover {
+	text-decoration: underline;
+	color: #3377FF;
+}
+.bar a:active {
+	text-decoration: none;
+	color: #3377FF;
+}
+.bar a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+.id a:link {
+	color: #D0D0D0;
+	text-decoration: none;
+}
+.id a:visited {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+.id a:hover {
+	text-decoration: underline;
+	color: #D0D0D0;
+}
+.id a:active {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+.id a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+=======
+@charset "utf-8";
+/* CSS Document */
+
+.boxes {
+	width:100%
+	text-align:center;
+}
+
+.rightdiv {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:20px;
+}
+.leftdiv {
+	float:left;
+	min-width:15%;
+}
+
+.centraldiv {
+	width:100%;
+	margin:0px;
+	float:left;
+	display:inline-block;
+}
+
+.fondo {
+	background-color: #D0D0D0;
+	color: #3377FF;
+	font-family: "Trebuchet MS";
+}
+.comando {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	background-color: #3377FF;
+}
+
+.ver {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	background-color: #3377FF;
+	border: medium dashed #000000;
+}
+.verhead {
+	text-align:center;
+	font-size: 16px;
+	color: #3377FF;
+	background-color: #D0D0D0;
+	border: medium dashed #D0D0D0;
+}
+.vertable {
+	font-size: 16px;
+	color: #D0D0D0;
+	padding: 16px;
+}
+.vertable td {
+	white-space:pre
+}
+
+.verhead a:link {
+	color:#3377FF;
+}
+.verhead a:visited {
+	color:#3377FF;
+}
+.verhead a:hover {
+	color:#3377FF;
+}
+
+
+.outtable {
+	font-size: 12px;
+	color: #D0D0D0;
+}
+
+.outtable tr {
+	outline: thin solid black;
+	border-bottom:1pt solid black;
+}
+.outtable td {
+	margin:0;
+	font-family: monospace;
+	vertical-align:top;
+}
+
+.outtable pre {
+	margin:0;
+	padding:0;
+}
+.help
+{
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	background-color: #FDFDFD;
+	border: medium dashed #000000;
+}
+
+.titulo {
+	text-align: center;
+	font-family: Analgesics;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3377FF;
+}
+.subtitulo {
+	text-align: center;
+	font-size: 20px;
+	color: #3377FF
+}
+body {
+	background-color: #D0D0D0;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 478px;
+	top: 188px;
+}
+a:link {
+	color: #D0D0D0;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+a:hover {
+	text-decoration: underline;
+	color: #D0D0D0;
+}
+a:active {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+.bar a:link {
+	color:#3377FF;
+	text-decoration: none;
+}
+.bar a:visited {
+	text-decoration: none;
+	color: #3377FF;
+}
+.bar a:hover {
+	text-decoration: underline;
+	color: #3377FF;
+}
+.bar a:active {
+	text-decoration: none;
+	color: #3377FF;
+}
+.bar a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+.id a:link {
+	color: #D0D0D0;
+	text-decoration: none;
+}
+.id a:visited {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+.id a:hover {
+	text-decoration: underline;
+	color: #D0D0D0;
+}
+.id a:active {
+	text-decoration: none;
+	color: #D0D0D0;
+}
+.id a {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+>>>>>>> 6565933c1b09ffde501297fab60efc99ac2a418b
