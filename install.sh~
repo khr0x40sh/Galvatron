@@ -8,4 +8,6 @@ cp -r bot/ /var/www
 
 cp -r client/ /var/www
 
+mysql -u root < bot1.sql
+
 echo "Client files can be found in /var/www/client/"

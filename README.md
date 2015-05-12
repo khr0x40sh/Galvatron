@@ -1,5 +1,5 @@
 #Galvatron
-  Powershell Version (with upgrades) of the Monohard botnet (Carlos Ganoza P.)
+  Powershell fork (with upgrades) of the Monohard botnet (Carlos Ganoza P.). Default creds are admin/admin
 
   1. Features
 
@@ -14,7 +14,7 @@
      Server
 	Requires typical LAMP setup.
 	Run install.sh for default setup. This assumes /var/www as your apache content directory.  Change the install script as needed.
-	This will setup the server in a default state.  User assumes risk of using default installation.
+	This will setup the server in a default state.  User assumes risk of using default installation. Login via /bot/login.php
 
      Client
 	Run galvatron.ps1 from the client directory either via the file or in memory.  If using udpflood, ensure either the udpflood.ps1 file is local or can be accessed in memory.
