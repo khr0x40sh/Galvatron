@@ -70,6 +70,7 @@ CREATE TABLE `bot` (
   `date` varchar(255) NOT NULL,
   `comando` varchar(250) NOT NULL,
   `time` int(30) NOT NULL,
+  `conn` varchar(8) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
