@@ -14,7 +14,9 @@
      Server
 	Requires typical LAMP setup.
 	Run install.sh for default setup. This assumes /var/www as your apache content directory.  Change the install script as needed.
-	This will setup the server in a default state.  User assumes risk of using default installation. Login via /bot/login.php
+	This will setup the server in a default state.  User assumes risk of using default installation. Login via /bot/login.php.
+	The server code contains several known vulnerabilites as it merely forked code from the original code with simple functionality updates.
+        As this is experimental code provided for educational purporses, it is highly encouraged to roll your own, and/or not use this code in production environments.
 
      Client
 	Run galvatron.ps1 from the client directory either via the file or in memory.  If using udpflood, ensure either the udpflood.ps1 file is local or can be accessed in memory.
