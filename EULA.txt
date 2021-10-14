@@ -1,0 +1,6 @@
+This notice serves that by downloading and using any piece of the software in the project, the End User agrees not to hold the author(s) responsible for any damages or unexpected actions of the software. 
+
+Use of this project and code within is strictly "AS-IS". 
+This is experimental / proof-of-concept code demonstrating Command and Control capabilities using Powershell-based client scripts.
+
+It is highly recommended anyone using any piece of this project to read, understand, and re-write pieces to suit your specific needs. 
